@@ -1,0 +1,130 @@
+*{
+	padding: 7px;
+}
+.logo {
+	padding-top: 7px;
+	width: 10%;
+	height: 10%;
+}
+.profile{
+	padding-top: 80px;
+	float:right;
+	width: 10%;
+	height: 10%;
+}
+
+.rdiplink{
+	padding-top: 0px;
+	float: right;
+}
+.navbar ul{
+	list-style: none;
+	padding: 0px;
+}
+.navbar li{
+	display: inline;
+}
+.navbar {
+	background-color: #363636;
+}
+.navbar a:link{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+.navbar a:hover{
+	padding-top:25px;
+	padding-bottom:25px;
+	background-color: lightgray;
+	color:black;
+}
+.navbar a:visited{
+	color: white;
+}
+table, th,td{
+	border-collapse: collapse;
+	border: 3px solid black;
+	padding-right: 40px;
+	padding-left: 40px;
+	font-family: Arial,Verdana,sans-serif;
+}
+
+h2{
+	padding-left: 0px;
+}
+
+p{
+	font-size: 18px;
+}
+label{
+	font-size: 22px;
+}
+.myform{
+	padding-left: 20px;
+}
+.myform input[type="text"]{
+	margin-left: 220px;
+	width: 300px;
+	border-radius: 9px;
+	border: 1.5px solid darkgray;
+	box-shadow: 0px 5px 10px #dbdbdb inset;
+
+}
+
+.myform #leftlabel label{
+	position: absolute;
+	font-weight: bold;
+}
+
+.myform #gen,#check{
+	margin-left: 240px;
+	padding-right:0px;
+	padding-left: 0px;
+}
+.myform #dec input{
+	margin-left: 55px;
+}
+.myform #dec label{
+	margin-left: 100px;
+	font-weight: bold;
+}
+.myform .lines{
+	padding-bottom: 2px;
+}
+.myform #submit{
+	border: 1.5px solid darkgray;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 75px;
+	margin-left: 30px;
+	border-radius: 8px;
+}
+.myform #reset{
+	border: 1.5px solid darkgray;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 75px;
+	margin-left: 230px;
+	border-radius: 8px;
+}
+
+.myform #gen,#check label{
+	font-weight: bold;
+}
+.myform #email,#gender{
+	margin-left: 15px;
+}
+.myform #reasonlabel{
+	padding-left: 0px;
+}
+.myform #college{
+	margin-left: 20px;
+}
+
+/* Details page */
+#details p{
+	padding-left: 0px;
+	padding-bottom: 0px;
+	line-height: 5px;
+	font-family: "Consolas";
+}

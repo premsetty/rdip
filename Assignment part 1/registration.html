@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div class="rdiplink" ><a href="https://serc.iiit.ac.in/rdip"><h1>RDIP</h1></a></div>
+	<a href="https://www.iiit.ac.in/">
+	<img class="logo" src="https://www.iiit.ac.in/img/iiit-new.png" alt="Logo"></a>
+	<div class="navbar"><ul>
+		<li><a href="homepage.html">Home</a></li>
+		<li><a href="registration.html">Registration Form</a></li>
+	</ul></div><br>
+	<form class="myform" action="details.html" method="get">
+		<section id="leftlabel"><div class="lines"><label for="fname">First name:</label>
+		<input type="text" id="fname" name="fname"></div><br>
+		<div class="lines"><label id="email" for="email">E-mail:</label>
+		<input type="text" id="email "name="email"></div><br>
+		<div class="lines"><label for="phone">Phone no:</label>
+		<input type="text" id="phone "name="phone"><br>
+		<!-- GENDER : !-->
+		<br><label id="gender" for="gender">Gender:</label></section>
+
+		<section id="gen"><input type="radio" id="male" name="gender">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender">
+		<label for="female">Female</label>
+		<input type="radio" id="other" name="gender">
+		<label for="other">Other</label><br></section>
+		<!-- REASONS !-->
+		<section id="leftlabel"><label id="reasonlabel" for="reasons">Reasons for RDIP: </label></section>
+		<section id="check"><input type="checkbox" id="HTML" name="HTML">
+		<label for="HTML">HTML</label>
+		<input type="checkbox" id="CSS" name="CSS">
+		<label for="CSS">CSS</label>
+		<input type="checkbox" id="js" name="js">
+		<label for="js">JavaScript</label></section>
+		<!-- COLLEGE !-->
+		<section id="leftlabel"><label id="college" for="college">College:</label>
+		<input type="text" id="college "name="college"><br></section>
+		<!-- DECLARATION !-->
+		<br><section id="dec"><input type="checkbox" id="declare" name="declare">
+		<label for="declare">I declare above details given by me are true. </label></section><br>
+		<!-- SUBMIT AND RESET !-->
+		<input id="submit" type="SUBMIT" name="Submit">
+		<input id="reset" type="RESET" name="Reset">
+	</form>
+		
+</body>
+</html>
+
+
