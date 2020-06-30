@@ -32,15 +32,17 @@
 	font-size: 20px;
 	color: white;
 }
-.navbar a:hover{
-	padding-top:25px;
-	padding-bottom:25px;
-	background-color: lightgray;
-	color:black;
-}
 .navbar a:visited{
 	color: white;
 }
+.navbar a:hover{
+	color:black;
+	padding-top:25px;
+	padding-bottom:25px;
+	background-color: lightgray;
+	
+}
+
 table, th,td{
 	border-collapse: collapse;
 	border: 3px solid black;
@@ -88,9 +90,7 @@ label{
 	margin-left: 100px;
 	font-weight: bold;
 }
-.myform .lines{
-	padding-bottom: 2px;
-}
+
 .myform #submit{
 	border: 1.5px solid darkgray;
 	padding-top: 5px;
@@ -117,7 +117,7 @@ label{
 .myform #reasonlabel{
 	padding-left: 0px;
 }
-.myform #college{
+.myform #collegelabel{
 	margin-left: 20px;
 }
 
